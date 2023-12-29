@@ -29,7 +29,7 @@ body{
     border: none;
     outline: none;
     font-size: 12px;
-    padding: 5px 6px;
+    padding: 5px 14px;
     cursor: pointer;
     margin-top: 8px;
     border-radius: 5px;
@@ -71,4 +71,9 @@ h1{
 }
 #para{
     margin-left: 47%;
+}
+
+#magGlass{
+    font-size: 18px;
+    background-color: lightblue;
 }
