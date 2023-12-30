@@ -60,7 +60,7 @@ function reset(){
     clearInterval(timer);
     console.log('Restarted');
     h1.textContent='HH : MM : SS';
-    sec=0;
+    sec=-1;
     hrs=0;
     mins=0;
 }
