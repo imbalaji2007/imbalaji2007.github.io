@@ -25,7 +25,7 @@ img {
 
 #bio {
     padding: 20px;
-    margin-top: 7.5%;
+    margin-top: 9%;
     background-color: white; 
     border-radius: 10px; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
@@ -56,7 +56,7 @@ h1, h2, h3 {
 }
 
 #nav a {
-    margin: 0 20px;
+    margin: 0 10px;
     font-size: 18px;
     font-weight: 600;
 }
@@ -65,6 +65,7 @@ h1, h2, h3 {
 #Creations,
 #int,
 #stud {
+    height: 100vh;
     padding: 25px;
     margin-top: 20px;
     background-color: white;
@@ -99,4 +100,27 @@ h1, h2, h3 {
     cursor: pointer;
     position: fixed;
     background-color: white;
+}
+
+@media screen and (max-width: 770px) {
+#img{
+    margin-top: 130px;
+}
+#header{
+    height: 140px;
+    font-size: 12px;
+}
+
+#intro,
+#Creations,
+#int,
+#stud{
+    font-size: 13.7px;
+}
+
+#nav a{
+    margin-left: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
 }
