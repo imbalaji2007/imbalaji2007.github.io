@@ -123,6 +123,6 @@ function checkWinner(){
 
     winText.textContent=win+'|';
     loseText.textContent=lose+'|';
-    drawText.textContent=draw+'|';
+    drawText.textContent=draw;
     
 }
