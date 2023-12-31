@@ -74,6 +74,9 @@ function checkWin(){
     console.log(currentPlayer+' is winner');
     resText.textContent=currentPlayer+' is Winner!';
     endGame();
+    Array.from(cells).forEach(function(cell) {
+      cell.style.pointerEvents = 'none';
+    });
   }
   else if (!gameList.includes("")){
     console.log('Draw!');
