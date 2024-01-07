@@ -56,6 +56,20 @@ button:hover{
 
 @media screen and (max-width: 770px){
     #cal{
-        width: 60%;
+        width: 55%;
     }
-}
+    .operators{
+        background-color: rgb(124, 103, 64);
+    }
+    .operators:hover{
+        background-color: rgb(124, 103, 64);
+    }
+    
+    #equal{
+        background-color: rgb(197, 101, 41);
+    }
+    
+    #equal:hover{
+        background-color: rgb(197, 101, 41);
+    }
+    }
