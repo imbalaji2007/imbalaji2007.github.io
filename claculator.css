@@ -72,4 +72,7 @@ button:hover{
     #equal:hover{
         background-color: rgb(197, 101, 41);
     }
+    button:hover{
+        background-color: rgb(144, 144, 144);
+    }
     }
