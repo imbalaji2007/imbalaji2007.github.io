@@ -54,7 +54,7 @@ button:hover{
     background-color: rgb(234, 126, 59);
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 764px){
     #cal{
         width: 55%;
     }
