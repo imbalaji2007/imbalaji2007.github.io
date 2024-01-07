@@ -72,6 +72,18 @@ button:hover{
     #equal:hover{
         background-color: rgb(197, 101, 41);
     }
+    button{
+        border: none;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding: 12px;
+        margin-top: 7px;
+        cursor: pointer;
+        background-color: rgb(144, 144, 144);
+        color: white;
+        margin-top: 14px;
+    }
     button:hover{
         background-color: rgb(144, 144, 144);
     }
