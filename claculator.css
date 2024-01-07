@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
+button{
+    border: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    margin-top: 7px;
+    cursor: pointer;
+    background-color: rgb(144, 144, 144);
+    color: white;
+    margin-top: 14px;
+}
+button:hover{
+    background-color: rgb(121, 121, 121);
+}
+#display{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(104, 104, 104);
+    outline: none;
+    font-size: 40px;
+    color: white;
+}
+#cal{
+    background-color: rgb(70, 94, 94);
+    width: 22%;
+    height: 30%;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+.operators{
+    background-color: rgb(124, 103, 64);
+}
+.operators:hover{
+    background-color: rgb(236, 175, 61);;
+}
+
+#equal{
+    background-color: rgb(197, 101, 41);
+}
+
+#equal:hover{
+    background-color: rgb(234, 126, 59);
+}
+
+@media screen and (max-width: 770px){
+    #cal{
+        width: 60%;
+    }
+}
