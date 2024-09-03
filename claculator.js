@@ -20,6 +20,11 @@ function addToDisplay(input) {
         display.value+='÷';
         cal+='/'
     }
+    else if (input=='**'){
+        display.value+='^';
+        cal+='**';
+    }
+    
     else{
     display.value += input;
     cal += input;
