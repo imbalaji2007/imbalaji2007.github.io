@@ -109,6 +109,6 @@ body{
 
 @media screen and (max-width: 770px){
     #cal{
-        width: 80%;
+        width: 100%;
     }
 }
