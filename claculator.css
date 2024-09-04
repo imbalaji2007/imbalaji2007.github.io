@@ -111,7 +111,16 @@ body{
     #cal{
         width: 100%;
     }
-    *:hover{
+    #c:hover{
+        background-color: rgb(70, 94, 94);
+    }
+    .operators:hover{
+        background-color: rgb(70, 94, 94);
+    }
+    .backSpace:hover{
+        background-color: rgb(70, 94, 94);
+    }
+    .bTn:hover{
         background-color: rgb(70, 94, 94);
     }
 }
