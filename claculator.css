@@ -111,4 +111,7 @@ body{
     #cal{
         width: 100%;
     }
+    *:hover{
+        background-color: rgb(70, 94, 94);
+    }
 }

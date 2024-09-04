@@ -35,8 +35,8 @@ function addToDisplay(input) {
 function calculate() {
     try {
         result = eval(cal);
-        if (result==Infinity || result === -Infinity){
-            display.value='ꝏ';
+        if (result === Infinity || result === -Infinity){
+            display.value="Can't divide by 0!";
         }
         else{
             display.value=result;
